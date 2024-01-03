@@ -7,7 +7,7 @@ const Navbar = () => {
       <h1 class="nav-logo">NGCT</h1>
       <ul class="navigation nav-hidden">
         <li>
-          <a href="index.html"> Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <a href="#about"> About</a>
@@ -22,7 +22,7 @@ const Navbar = () => {
           <a href="#example"> Example</a>
         </li>
         <li>
-          <a href="blog.html"> Blog</a>
+          <Link to="/Blog">Blog</Link>
         </li>
       </ul>
       <div id="button" class="hamburger">
