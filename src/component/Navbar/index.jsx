@@ -1,32 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "../style/navbar.css"
+import "./navbar.css";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    let lastScrollTop = 0;
+    let navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function () {
+      var scrollTop = window.scrollY || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop) {
+        navbar.style.top = "-80px";
+        lastScrollTop = scrollTop;
+      } else {
+        navbar.style.top = "0";
+        lastScrollTop = scrollTop;
+      }
+    });
+  }, []);
+
+  const onLinkClick = () => {
+    setOpen(!open);
+  }
+
   return (
     <nav id="nav">
       <h1 class="nav-logo">NGCT</h1>
-      <ul class="navigation nav-hidden">
+      <ul class={`navigation ${open ? "nav-show" : "nav-hidden"}`}>
         <li>
-          <Link to="/">Home</Link>
+          <Link onClick={onLinkClick} to="/">Home</Link>
         </li>
         <li>
-          <a href="#about"> About</a>
+          <a onClick={onLinkClick} href="#about"> About</a>
         </li>
         <li>
-          <a href="#technology"> Technology</a>
+          <a onClick={onLinkClick} href="#technology"> Technology</a>
         </li>
         <li>
-          <a href="#effect"> Effect</a>
+          <a onClick={onLinkClick} href="#effect"> Effect</a>
         </li>
         <li>
-          <a href="#example"> Example</a>
+          <a onClick={onLinkClick} href="#example"> Example</a>
         </li>
         <li>
-          <Link to="/Blog">Blog</Link>
+          <Link onClick={onLinkClick} to="/blog">Blog</Link>
         </li>
       </ul>
-      <div id="button" class="hamburger">
+      <div
+        id="button"
+        onClick={() => setOpen((prev) => !prev)}
+        class={`hamburger ${open ? "active" : "not-active"}`}
+      >
         <span></span>
         <span></span>
         <span></span>
