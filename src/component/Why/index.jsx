@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WHy = () => {
+const Why = () => {
   return (
-    <div>WHy</div>
+    <div>Why</div>
   )
 }
 
-export default WHy
+export default Why
