@@ -1,0 +1,62 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/image/city.webp");
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 800;
+    min-height: 100vh;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.header-text>h1 {
+    font-size: 100px;
+    color: transparent;
+    font-family: ethnocentric;
+    color: #fff;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 0.1px #000000;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-text>h1 {
+        font-size: 70px;
+    }
+    /* .header-text>h4 {
+        font-size: 15px;
+    } */
+}
+
+.header-text>h4 {
+    font-size: 35px;
+    margin: 0;
+    margin-top: 6px;
+    transition: all 0.5s;
+    -webkit-text-stroke: 0.1px #000000;
+}
+
+@media screen and (max-width: 1200px) {
+    .header-text>h4 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-text>h4 {
+        font-size: 12px;
+    }
+    .header-text>h1 {
+        font-size: 35px;
+    }
+}
+
+.header-text {
+    text-align: center;
+}
