@@ -6,7 +6,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   useEffect(() => {
     let lastScrollTop = 0;
-    let navbar = document.getElementById("navbar");
+    let navbar = document.getElementById("nav");
     window.addEventListener("scroll", function () {
       var scrollTop = window.scrollY || document.documentElement.scrollTop;
       if (scrollTop > lastScrollTop) {
