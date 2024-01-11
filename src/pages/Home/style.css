@@ -60,3 +60,13 @@
 .header-text {
     text-align: center;
 }
+
+.background {
+    background-image: url("../../../public/image/lightnight.webp");
+    background-attachment: fixed;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: fit-content;
+}

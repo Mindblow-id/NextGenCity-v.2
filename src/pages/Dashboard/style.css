@@ -1,0 +1,66 @@
+form {
+    margin-top: 5rem;
+    padding: 0 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    max-width: 400px;
+    outline: none;
+    padding: 12px 12px ;
+    /* border-radius: 12px; */
+    border: none;
+}
+
+input:focus {
+
+}
+
+
+
+.file-input {
+    display: none;
+}
+.file-upload {
+    cursor: pointer;
+    background: black;
+    padding: 12px 12px;
+    /* border-radius: 12px; */
+    max-width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+    transition: all;
+    transition-duration: 150ms;
+}
+.file-upload:hover {
+    color: black;
+    background: white;;
+}
+
+
+.select-type {
+    color: white;
+    background: black;
+    padding: 12px 12px;
+    /* border-radius: 12px; */
+    max-width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+
+}
+.select-type:in {
+    padding: 4px;
+}

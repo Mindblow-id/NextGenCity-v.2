@@ -1,9 +1,6 @@
 import "./style.css";
 import React from "react";
 import Navbar from "../../component/Navbar";
-// import About from "../../component/About";
-
-
 function Home() {
   return (
     <div>
