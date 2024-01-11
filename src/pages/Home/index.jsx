@@ -1,20 +1,21 @@
-import "./style.css"
-import React from 'react'
-import Navbar from '../../component/Navbar'
+import "./style.css";
+import React from "react";
+import Navbar from "../../component/Navbar";
+// import About from "../../component/About";
+
 
 function Home() {
   return (
     <div>
       <Navbar />
-      <header class="hero">
-
-        <div class="header-text">
-            <h1 class="depth">NextGenCity</h1>
-            <h4>SOLUTIONS FOR THE NEXT SMART CITY</h4>
+      <header className="hero">
+        <div className="header-text">
+          <h1>NextGenCity</h1>
+          <h4>SOLUTIONS FOR THE NEXT SMART CITY</h4>
         </div>
-    </header>
+      </header>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

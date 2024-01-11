@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'BraveNewEraG98';
+  src: url('../public/font/BraveNewEraG98-5XOj.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ethnocentric';
+  src: url("../public/font/ethnocentric\ rg.otf");
+}
+
 .App {
   text-align: center;
 }
