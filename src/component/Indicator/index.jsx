@@ -13,8 +13,8 @@ const Indicator = () => {
       <div className="header-indicator">
         <h3>Indicator</h3>
         <div className="btn-indicator">
-          <Link onClick={onLinkClick} to="/indicator">
-            More Explation
+          <Link className="btn-text" onClick={onLinkClick} to="/indicator">
+            Explanation..
           </Link>
         </div>
       </div>

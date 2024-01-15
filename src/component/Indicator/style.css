@@ -9,13 +9,29 @@
     padding: 20px;
 }
 
-.indicator .header-indicator .btn-indicator {
+.indicator .header-indicator {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.btn-indicator {
     font-size: 12px;
     padding: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
-.indicator .header-indicator .btn-indicator>Link {
-    color:#fff;
-    text-decoration:none;
+
+.btn-text {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-text:hover {
+    opacity: 70%;
+    transition: all;
+    transition-duration: 500ms;
 }
 
 .carousel {
@@ -73,5 +89,14 @@
     }
     100% {
         transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .indicator .header-indicator>h3 {
+        font-size: 30px;
+    }
+    .btn-indicator {
+        font-size: 14px;
     }
 }

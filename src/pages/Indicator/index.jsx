@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Indicatorrs = () => {
+const Indicator = () => {
   return (
-    <div>Indicatorrs</div>
+    <div>Indicator</div>
   )
 }
 
-export default Indicatorrs
+export default Indicator
