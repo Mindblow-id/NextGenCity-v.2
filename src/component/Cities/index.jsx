@@ -10,11 +10,11 @@ const Cities = () => {
           <p>
             Jakarta, merupakan salah satu kota dengan penduduk terpadat di
             Indonesia. Kota yang satu ini telah menerapkan konsep smart city
-            dalam pengelolaan kotanya.{" "}
+            dalam pengelolaan kotanya.
           </p>
           <p>
             Jakarta telah mengoptimalkan pemanfaatan teknologi demi
-            memaksimalkan pelayanan publik yang lebih efektif dan efisien{" "}
+            memaksimalkan pelayanan publik yang lebih efektif dan efisien
           </p>
           <div class="title-box">
             <h4>Jakarta</h4>
@@ -42,7 +42,7 @@ const Cities = () => {
           </p>
           <p>
             Medan, melalui kebijakan oleh pemerintahnya telah mewujudkan kota
-            ini menjadi smart city dengan berbagai aspek{" "}
+            ini menjadi smart city dengan berbagai aspek
           </p>
           <div class="title-box">
             <h4>Medan</h4>

@@ -6,7 +6,10 @@
 .effect>h1 {
     font-size: 40px;
     text-align: center;
-    @media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 1000px) {
+    .effect>h1 {
         font-size: 30px;
         margin-top: auto;
         margin-bottom: 10px;
@@ -21,11 +24,11 @@
     gap: 30px;
 }
 
-.box-container-effect>.container{
+.box-container-effect>.container {
     transition: all 0.2s ease-in-out;
 }
 
-.box-container-effect>.container:hover{
+.box-container-effect>.container:hover {
     scale: 1.1;
 }
 
