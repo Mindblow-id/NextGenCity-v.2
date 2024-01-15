@@ -40,7 +40,7 @@ const Navbar = () => {
           <a onClick={onLinkClick} href="#effect"> Effect</a>
         </li>
         <li>
-          <a onClick={onLinkClick} href="#example"> Example</a>
+          <a onClick={onLinkClick} href="#example"> Cities</a>
         </li>
         <li>
           <Link onClick={onLinkClick} to="/blog">Blog</Link>

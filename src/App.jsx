@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Dashboard from './pages/Dashboard';
 import ListBlog from './pages/ListBlog/Index';
+import Indicator from './pages/Indicator';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path='/blog'  element={<ListBlog />}/>
           <Route path='/blog/:slug'  element={<Blog />}/>
           <Route path='/dashboard'  element={<Dashboard />}/>
+          <Route path='/indicator'  element={<Indicator />}/>
         </Routes > 
       </BrowserRouter>
     </>

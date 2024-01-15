@@ -5,6 +5,7 @@ import About from "../../component/About";
 import Why from "../../component/Why";
 import Technology from "../../component/Technology";
 import Effect from "../../component/Effect";
+import Indicator from "../../component/Indicator";
 import Cities from "../../component/Cities";
 import Footer from "../../component/Footer";
 
@@ -23,6 +24,7 @@ function Home() {
       <Technology />
       <div className="background">
         <Effect />
+        <Indicator />
         <Cities />
       </div>
       <Footer />

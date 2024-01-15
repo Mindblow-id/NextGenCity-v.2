@@ -49,7 +49,7 @@ const Cities = () => {
           </div>
         </div>
       </div>
-      <h1>Example</h1>
+      <h1>Cities</h1>
     </section>
   );
 };
