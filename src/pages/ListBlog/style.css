@@ -1,0 +1,152 @@
+
+
+.blog {
+    max-width: 1536px;
+}
+
+.blog {
+    min-height: calc(100vh - 420px);
+    position: relative;
+    flex-direction: column;
+    gap: 4em;
+    display: flex;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: url("/public/image/earth.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header-title {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+header>h5 {
+    font-size: 40px;
+    font-family: 'BraveNewEraG98';
+    font-weight: 300;
+}
+
+.blog-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-bottom: 283px;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    max-width: 400px;
+    width: auto;
+    cursor: pointer;
+}
+
+.blog-card>.img-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.blog-card img {
+    object-fit: cover;
+    object-position: center;
+    width: auto;
+    height: auto;
+    min-width: fit-content;
+    min-height: fit-content;
+}
+
+.blog-card>h3 {
+    margin-top: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+#content-leak {
+    margin-top: 10px;
+    text-indent: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #ffffff;
+    font-family: BraveNewEraG98;
+}
+
+#content-leak h1{
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 4px;
+    font-size: x-large;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .blog {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .blog {
+        max-width: 640px;
+    }
+    .header-title {
+        font-size: 75px;
+    }
+    header>h5 {
+        font-size: 30px;
+    }
+    .blog-container {
+        margin-top: 150px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .blog {
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .blog {
+        max-width: 1024px;
+    }
+
+}
+
+@media screen and (max-width: 1536px) {
+    .blog {
+        max-width: 1280px;
+    }
+
+}

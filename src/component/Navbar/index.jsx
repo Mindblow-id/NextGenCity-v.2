@@ -25,8 +25,8 @@ const Navbar = () => {
 
   return (
     <nav id="nav">
-      <h1 class="nav-logo">NGCT</h1>
-      <ul class={`navigation ${open ? "nav-show" : "nav-hidden"}`}>
+      <h1 className="nav-logo">NGCT</h1>
+      <ul className={`navigation ${open ? "nav-show" : "nav-hidden"}`}>
         <li>
           <Link onClick={onLinkClick} to="/">Home</Link>
         </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
       <div
         id="button"
         onClick={() => setOpen((prev) => !prev)}
-        class={`hamburger ${open ? "active" : "not-active"}`}
+        className={`hamburger ${open ? "active" : "not-active"}`}
       >
         <span></span>
         <span></span>
