@@ -7,10 +7,10 @@ const Indicator = () => {
   return (
     <>
       <Navbar />{" "}
-      <div className="Indicator">
+      <div className="">
         <section className="hero-indicator">
           <div className="hero-content">
-            <h1 className="title">All Smart City Indicator</h1>
+            <h1 className="indicator-title">All Smart City Indicator</h1>
             <img
               className="img-indicator"
               src="/image/image 19.webp"
@@ -19,12 +19,12 @@ const Indicator = () => {
             <h3>Apa saja pilar indikator Smart City?</h3>
           </div>
         </section>
-        <section className="smart-economy">
+        <section className="indicator">
           <div>
-            <div className="content">
-              <div className="container">
+            <div className="contents">
+              <div className="containers">
                 <img
-                  className="img-content"
+                  className="img-contents"
                   src="/image/Economy.svg"
                   alt="..loading"
                 />
