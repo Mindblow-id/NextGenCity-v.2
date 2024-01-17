@@ -3,9 +3,10 @@ import Navbar from "../../component/Navbar";
 import Footer from "../../component/Footer";
 import "./style.css";
 import axios from "axios";
+import {useNavigate} from "react-router-dom"
 
 export default function ListBlog() {
-  
+  const navigate = useNavigate()
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -25,8 +26,8 @@ export default function ListBlog() {
     }
   };
 
-  const blogOnClick = (e) => {
-
+  const blogOnClick = (slug) => {
+    navigate(`/blog/${slug}`)
   }
 
   useEffect(() => {
@@ -41,8 +42,8 @@ export default function ListBlog() {
       </header>
       <div className="blog">
         <div className="blog-container">
-          {blogs.map((blog) => (
-            <section onClick={blogOnClick} className="blog-card" key={blog.id}>
+          {blogs && blogs.map((blog) => (
+            <section onClick={() => blogOnClick(blog.slug)} className="blog-card" key={blog.id}>
               <div className="img-container">
                 <img
                   src={"http://localhost:4000/img/" + blog.image}

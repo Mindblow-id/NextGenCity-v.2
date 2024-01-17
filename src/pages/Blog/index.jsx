@@ -13,17 +13,17 @@ function Blog() {
   const getBlog = async () => {
     setLoading(true);
     try {
-      const response = await (await axios.get("http://localhost:4000/blog/" + slug)).data;
-      
+      const response = await (
+        await axios.get("http://localhost:4000/blog/" + slug)
+      ).data;
+
       if (response.status === "success") {
         console.log(response);
         setBlog(response.data);
-        const content = document.getElementById("content");
-        content.innerHTML = await response.data.content;
       }
     } catch (error) {
       console.log(error);
-      alert(error.msg);
+      alert(error);
     } finally {
       setLoading(false);
     }
@@ -52,7 +52,10 @@ function Blog() {
             <div className="img">
               <img src={"http://localhost:4000/img/" + blog.image} alt="blog" />
             </div>
-            <div id="content"></div>
+            <div
+              id="content"
+              dangerouslySetInnerHTML={{ __html: blog.content }}
+            ></div>
           </>
         ) : loading ? (
           <div className="loading"></div>

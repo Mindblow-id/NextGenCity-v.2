@@ -1,15 +1,24 @@
 
 footer {
+    padding-top: 31px;
     width: 100%;
-    height: 250px;
+    height: auto;
+    position: relative;
 }
 
 .footer-logo {
-    display: flex;
-    font-size: 40px;
+    height: fit-content;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
     width: fit-content;
     border-bottom: 2px solid;
-    margin: 20px;
+}
+
+.footer-logo>h1 {
+    font-size: 70px;
 }
 
 footer>h2 {

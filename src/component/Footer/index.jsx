@@ -4,7 +4,10 @@ import "./style.css";
 const Footer = () => {
   return (
     <footer>
-      <h1 className="footer-logo">NGCT</h1>
+      <div className="footer-logo">
+        <h1>NGCT</h1>
+      </div>
+
       <h2>Contact Us</h2>
       <div className="contact">
         <a href="#">
