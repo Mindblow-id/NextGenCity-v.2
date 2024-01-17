@@ -77,3 +77,43 @@ section {
         width: 30%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    section {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .img-indicator {
+        width: 90%;
+    }
+    .title {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    .content {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+        >p {
+            width: fit-content;
+            font-size: 16px;
+            height: fit-content;
+            letter-spacing: 2.5px;
+        }
+    }
+    .content-revers {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        >p {
+            width: fit-content;
+            font-size: 16px;
+            height: fit-content;
+            letter-spacing: 2.5px;
+        }
+    }
+}
