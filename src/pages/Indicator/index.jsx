@@ -9,7 +9,7 @@ const Indicator = () => {
       <Navbar />{" "}
       <div className="">
         <section className="hero-indicator">
-          <div className="hero-content">
+          <div className="hero-contents">
             <h1 className="indicator-title">All Smart City Indicator</h1>
             <img
               className="img-indicator"
@@ -19,7 +19,7 @@ const Indicator = () => {
             <h3>Apa saja pilar indikator Smart City?</h3>
           </div>
         </section>
-        <section className="indicator">
+        <section className="indicators">
           <div>
             <div className="contents">
               <div className="containers">
@@ -51,10 +51,10 @@ const Indicator = () => {
             </div>
           </div>
         </section>
-        <section className="smart-env">
+        <section className="indicators">
           <div>
             <div className="content-revers">
-              <div className="container">
+              <div className="containers">
                 <img src="/image/SmartEnv.svg" alt="" />
                 <h3>Smart Environment</h3>
               </div>
@@ -74,10 +74,10 @@ const Indicator = () => {
             </div>
           </div>
         </section>
-        <section className="smart-govern">
+        <section className="indicators">
           <div>
-            <div className="content">
-              <div className="container">
+            <div className="contents">
+              <div className="containers">
                 <img src="/image/Govern.svg" alt="" />
                 <h3>Smart Government</h3>
               </div>
@@ -101,10 +101,10 @@ const Indicator = () => {
             </div>
           </div>
         </section>
-        <section className="smart-living">
+        <section className="indicators">
           <div>
             <div className="content-revers">
-              <div className="container">
+              <div className="containers">
                 <img src="/image/SmartHome.svg" alt="" />
                 <h3>Smart Living</h3>
               </div>
@@ -123,10 +123,10 @@ const Indicator = () => {
             </div>
           </div>
         </section>
-        <section className="smart-mobility">
+        <section className="indicators">
           <div>
-            <div className="content">
-              <div className="container">
+            <div className="contents">
+              <div className="containers">
                 <img src="/image/Mobility.svg" alt="" />
                 <h3>Smart Mobility</h3>
               </div>
@@ -147,10 +147,10 @@ const Indicator = () => {
             </div>
           </div>
         </section>
-        <section className="smart-economy">
+        <section className="indicators">
           <div>
             <div className="content-revers">
-              <div className="container">
+              <div className="containers">
                 <img src="/image/SmartPeople.svg" alt="" />
                 <h3>Smart People</h3>
               </div>

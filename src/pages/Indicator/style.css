@@ -2,7 +2,7 @@
     margin-top: 160px;
 }
 
-.hero-content {
+.hero-contents {
     width: 100%;
     align-items: center;
     display: flex;
@@ -22,7 +22,7 @@ h3 {
     font-size: 24px;
 }
 
-.indicator {
+.indicators {
     padding-top: 48px;
     padding-left: 120px;
     padding-right: 120px;
@@ -86,7 +86,7 @@ h3 {
     .img-indicator {
         width: 90%;
     }
-    .title {
+    .indicator-title {
         font-size: 20px;
     }
     h3 {
@@ -97,23 +97,23 @@ h3 {
         gap: 24px;
         flex-direction: column;
         align-items: center;
-        >p {
-            width: fit-content;
-            font-size: 16px;
-            height: fit-content;
-            letter-spacing: 2.5px;
-        }
+    }
+    .contents p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
     }
     .content-revers {
         display: flex;
         flex-direction: column;
         gap: 24px;
         align-items: center;
-        >p {
-            width: fit-content;
-            font-size: 16px;
-            height: fit-content;
-            letter-spacing: 2.5px;
-        }
+    }
+    .content-revers p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
     }
 }
