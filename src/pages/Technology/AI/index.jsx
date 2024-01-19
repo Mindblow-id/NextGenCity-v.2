@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../../component/Navbar";
 
 const AI = () => {
   return (
-    <div>AI</div>
-  )
-}
+    <>
+      <Navbar />
+      <div>
+        <img src="/gif/video (2160p)_2_.gif.crdownload" alt="" />
+      </div>
+    </>
+  );
+};
 
-export default AI
+export default AI;
