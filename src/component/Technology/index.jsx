@@ -20,7 +20,7 @@ const Technology = () => {
             Internet untuk mengoperasikan berbagai macam perangkat.
           </p>
           <div className="more-container">
-            <Link to="/technology/iot">
+            <Link onClick={onLinkClick} to="/technology/iot">
               <img className="more-icon" src="/image/more-icon.svg" alt="" />
             </Link>
           </div>
@@ -33,7 +33,7 @@ const Technology = () => {
             Assistant, Smart Services dan Smart Control.
           </p>
           <div className="more-container">
-          <Link to="/technology/ai">
+          <Link onClick={onLinkClick} to="/technology/ai">
               <img className="more-icon" src="/image/more-icon.svg" alt="" />
             </Link>
           </div>
@@ -47,7 +47,7 @@ const Technology = () => {
             penyimpanan data dan akses jarak jauh melalui internet.
           </p>
           <div className="more-container">
-            <Link to="/technology/cloudcomputing">
+            <Link onClick={onLinkClick} to="/technology/cloudcomputing">
               <img className="more-icon" src="/image/more-icon.svg" alt="" />
             </Link>
           </div>
@@ -59,7 +59,7 @@ const Technology = () => {
             seperti Smart Watch, dan Fitness Tracker.
           </p>
           <div className="more-container">
-            <Link to="/technology/wearabletechnology">
+            <Link onClick={onLinkClick} to="/technology/wearabletechnology">
               <img className="more-icon" src="/image/more-icon.svg" alt="" />
             </Link>
           </div>
