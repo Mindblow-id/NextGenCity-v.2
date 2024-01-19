@@ -13,7 +13,7 @@ export default function ListBlog() {
   const getBlogs = async () => {
     try {
       setLoading(true);
-      const response = await axios.get("http://localhost:4000/blog");
+      const response = await axios.get("http://localhost:4000/blog?type=blog");
       const data = response.data;
       if (data.status === "success") {
         setBlogs(data.data);

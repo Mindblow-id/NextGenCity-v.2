@@ -1,14 +1,11 @@
 .example {
     display: flex;
+    flex-direction: column-reverse;
     padding: 30px;
 }
 
 @media screen and (max-width: 1400px) {
-    .example {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
+    
     .example>h1 {
         margin-bottom: 20px;
         font-size: 30px;
@@ -16,9 +13,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .box-container-example {
-        flex-direction: column;
-    }
+
 }
 
 .example>h1 {
@@ -31,6 +26,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
+    overflow-x: auto;
 }
 
 .card {
@@ -38,14 +34,21 @@
     background-color: #323949;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .card>img {
     width: inherit;
+    height: 193px;
+    object-fit: cover;
 }
 
-.card>p {
-    text-align: left;
+.card p {
+
+    max-height: 332px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
     font-size: 17px;
     max-width: 300px;
     margin-left: auto;
