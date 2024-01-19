@@ -1,0 +1,79 @@
+.pop-box {
+    margin: 0 auto;
+    background-color: #2e3233;
+    width: fit-content;
+    z-index: 11;
+}
+
+.pop-box>h5 {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+.pop-box-img {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+/* .pop-bg {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+} */
+
+.pop-box-img>img {
+    width: 200px;
+    height: 200px;
+}
+
+.close-button {
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background: gray;
+    border-radius: 999px;
+}
+
+.pop-up-container {
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url("/public/image/chip-effect.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.pop-paragraph {
+    width: 681px;
+    margin: 55px auto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2.5px;
+}
+
+.pop-title {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 52px;
+    padding-bottom: 12px;
+}
+
+.quality-pop {
+    position: absolute;
+    right: 52px;
+    bottom: 147px;
+}

@@ -1,0 +1,21 @@
+.pop-up {
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.pop-hidden {
+    top: 100vh;
+    opacity: 0;
+    /* top: 50px; */
+}
+
+.pop-show {
+    opacity: 1;
+    top: 0;
+}

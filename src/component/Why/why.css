@@ -33,7 +33,7 @@
 .box-why {
     background-color: #2e3233;
     transition: all 0.2s ease-in-out;
-    cursor: default;
+    cursor: pointer;
 }
 
 .box-why:hover{
