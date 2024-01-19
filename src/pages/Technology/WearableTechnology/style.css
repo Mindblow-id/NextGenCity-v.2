@@ -1,0 +1,170 @@
+.wt-bg-video {
+    margin-top: 70px;
+    max-width: 100vw;
+    max-height: 100vh;
+    height: calc(100vh - 70px);
+    position: relative;
+    overflow: hidden;
+}
+
+.wt-video {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.wt-title {
+    margin-top: 59px;
+    text-align: center;
+}
+
+/* screen 2 */
+.wt-second {
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.wt-second>.wt-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+
+}
+
+.wt-second>h1 {
+    margin-top: 59px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wt-second>p {
+    position: absolute;
+    bottom: 130px;
+
+    color: #000;
+
+
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+}
+
+/* third screen */
+.wt-third {
+    max-width: 100vw;
+    min-height: 100vh;
+
+}
+
+.wt-third>h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.wt-third>.wt-image-container {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wt-image-container>img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.wt-third>p {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 1300px;
+    margin: 50px auto;
+}
+
+/* fourth screen */
+.wt-fourth {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.wt-fourth>h1 {
+    text-align: center;
+}
+
+.ot-card-container {
+    margin-top: 135px;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ot-card {
+    height: 580px;
+    width: 420px;
+    border-radius: 8px;
+    background: #FFF;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ot-card>h2 {
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 36px;
+}
+
+.mid-card {
+    margin-top: -60px;
+}
+
+.ot-card>a {
+    
+    color: white;
+    text-decoration: none;
+    padding: 12px 45px;
+    border-radius: 5px;
+    background: #4C5254;
+}
+
+
+@media screen and (max-width: 786px) {
+    .wt-image-container>img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .mid-card {
+        margin-top: 0;
+    }
+}
