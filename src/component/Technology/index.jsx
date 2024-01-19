@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "./style.css";
 import { div } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Technology = () => {
-  const [] = useState()
+  const [open, setOpen] = useState(false);
+
+  const onLinkClick = () => {
+    setOpen(!open);
+  };
   return (
     <section id="technology" className="technology">
       <h1 className="title">Technology</h1>
@@ -15,7 +20,9 @@ const Technology = () => {
             Internet untuk mengoperasikan berbagai macam perangkat.
           </p>
           <div className="more-container">
-            <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            <Link onClick={onLinkClick} to="/technology/iot">
+              <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            </Link>
           </div>
         </div>
         <div className="ai">
@@ -26,7 +33,9 @@ const Technology = () => {
             Assistant, Smart Services dan Smart Control.
           </p>
           <div className="more-container">
-            <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            <Link onClick={onLinkClick} to="/technology/ai">
+              <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            </Link>
           </div>
         </div>
       </div>
@@ -38,7 +47,9 @@ const Technology = () => {
             penyimpanan data dan akses jarak jauh melalui internet.
           </p>
           <div className="more-container">
-            <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            <Link onClick={onLinkClick} to="/technology/cloudcomputing">
+              <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            </Link>
           </div>
         </div>
         <div className="wt">
@@ -48,7 +59,9 @@ const Technology = () => {
             seperti Smart Watch, dan Fitness Tracker.
           </p>
           <div className="more-container">
-            <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            <Link onClick={onLinkClick} to="/technology/wearabletechnology">
+              <img className="more-icon" src="/image/more-icon.svg" alt="" />
+            </Link>
           </div>
         </div>
       </div>
