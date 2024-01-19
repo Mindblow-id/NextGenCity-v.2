@@ -3,7 +3,6 @@ import "./style.css";
 import { div } from "react-router-dom";
 
 const Technology = () => {
-  const [] = useState()
   return (
     <section id="technology" className="technology">
       <h1 className="title">Technology</h1>
