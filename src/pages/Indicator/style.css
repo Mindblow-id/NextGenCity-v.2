@@ -1,0 +1,119 @@
+.hero-indicator {
+    margin-top: 160px;
+}
+
+.hero-contents {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.indicator-title {
+    font-size: 36px;
+}
+
+.img-indicator {
+    width: 50%;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.indicators {
+    padding-top: 48px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.contents {
+    display: flex;
+    gap: 24px;
+    >p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
+    }
+}
+
+.content-revers {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 24px;
+    >p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
+    }
+}
+
+.containers {
+    padding: 12px, 8px, 8px, 12px;
+    width: 240px;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 8px;
+    >h3 {
+        font-size: 12px;
+        color: #000000;
+    }
+}
+
+.indicator-img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    >img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .indicator {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .img-indicator {
+        width: 90%;
+    }
+    .indicator-title {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    .contents {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contents p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
+    }
+    .content-revers {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .content-revers p {
+        width: fit-content;
+        font-size: 16px;
+        height: fit-content;
+        letter-spacing: 2.5px;
+    }
+}

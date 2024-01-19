@@ -1,4 +1,3 @@
-
 footer {
     padding-top: 31px;
     width: 100%;
@@ -18,12 +17,12 @@ footer {
 }
 
 .footer-logo>h1 {
-    font-size: 70px;
+    font-size: 40px;
 }
 
 footer>h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer .contact {
@@ -39,16 +38,19 @@ footer .copyright {
     justify-content: center;
     padding-bottom: 25px;
 }
+
 @media screen and (min-width: 768px) {
     .footer-logo {
         margin-left: 80px;
     }
 }
+
 @media screen and (max-width: 768px) {
     footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 24px;
     }
     footer>h2 {
         padding-top: 10px;

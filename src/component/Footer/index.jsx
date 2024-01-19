@@ -10,18 +10,18 @@ const Footer = () => {
 
       <h2>Contact Us</h2>
       <div className="contact">
-        <a href="#">
+        <a href="/">
           <img src="/image/instagram.svg " alt="instagram" />
         </a>
-        <a href="#">
+        <a href="/">
           <img src="/image/gmail.svg " alt="gmail" />
         </a>
-        <a href="#">
+        <a href="/">
           <img src="/image/linkedin.svg " alt="linkedin" />
         </a>
       </div>
       <div className="copyright ">
-        <h3>© Copyright 2023</h3>
+        <h4>© Copyright 2023</h4>
       </div>
     </footer>
   );
