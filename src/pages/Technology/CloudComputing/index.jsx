@@ -38,7 +38,7 @@ const CloudComputing = () => {
       </div>
       <div className="tcc-third">
         <div className="tcc-first-container">
-          <img src="/image/blog1-pict.webp" alt="" />
+          <img src="/image/technology/SE.svg" alt="" />
           <div className="tcc-text-container">
             <p>
               Platform pembelajaran digital yang di-host di Cloud, memungkinkan
@@ -53,7 +53,7 @@ const CloudComputing = () => {
           </div>
         </div>
         <div className="tcc-second-container">
-          <img src="/image/blog1-pict.webp" alt="" />
+          <img src="/image/technology/SPP.svg" alt="" />
           <div className="tcc-text-container">
             <p>
               Portal pelayanan publik yang di-host di Cloud, menyediakan

@@ -23,25 +23,15 @@
     text-align: center;
 }
 
+
 /* screen 2 */
+
 .tcc-second {
     max-width: 100vw;
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
-
-/* .tcc-second>.tcc-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    z-index: -1;
-
-} */
 
 .tcc-second>h1 {
     margin-top: 59px;
@@ -58,7 +48,6 @@
 .tcc-second>p {
     max-width: 1200px;
     margin: 250px auto;
-
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 32px;
@@ -68,13 +57,14 @@
     letter-spacing: 3.2px;
 }
 
+
 /* third screen */
+
 .tcc-third {
     max-width: 100vw;
     min-height: 100vh;
     padding: 0 32px;
 }
-
 
 .tcc-first-container {
     display: flex;
@@ -88,18 +78,21 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-
     font-family: BraveNewEraG98;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
-    /* 125% */
-    letter-spacing: 3.2px;
+    line-height: auto;
+    letter-spacing: 2.5px;
 }
 
-.tcc-first-container>img, .tcc-second-container>img {
-    width: 750px;
+.tcc-text-container>P {
+    font-size: 20px;
+}
+
+.tcc-first-container>img,
+.tcc-second-container>img {
+    width: 500px;
 }
 
 .tcc-second-container {
@@ -109,12 +102,13 @@
     flex-wrap: wrap;
     text-align: right;
     justify-content: center;
-    gap: 40px;
+    gap: 24px;
 }
 
 .tcc-second-container ul {
-    list-style-type: none;    
+    list-style-type: none;
 }
+
 .tcc-second-container li::before {
     content: "\2022";
     font-size: 40px;
@@ -127,10 +121,10 @@
 
 
 /* fourth screen */
+
 .tcc-fourth {
     text-align: center;
     min-height: 100vh;
-    
 }
 
 .tcc-fourth>h1 {
@@ -150,7 +144,6 @@
     width: 420px;
     border-radius: 8px;
     background: #FFF;
-
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -170,7 +163,6 @@
 }
 
 .ot-card>a {
-
     color: white;
     text-decoration: none;
     padding: 12px 45px;
@@ -178,12 +170,18 @@
     background: #4C5254;
 }
 
-
 @media screen and (max-width: 786px) {
     .tcc-image-container>img {
         width: 100%;
         height: 400px;
         object-fit: cover;
+    }
+    .tcc-second>h1 {
+        font-size: 20px;
+    }
+    .tcc-second>p {
+        font-size: 12px;
+        letter-spacing: 2.5px;
     }
 }
 

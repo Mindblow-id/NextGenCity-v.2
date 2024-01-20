@@ -34,7 +34,7 @@ const WearableTechnology = () => {
           className="wt-bg"
           alt=""
         />
-        <h1>Apa itu Artificial Intelligent?</h1>
+        <h1>Apa itu Wearable Tcehnology?</h1>
         <p>
           Wearable technology merujuk pada perangkat elektronik yang dikenakan
           atau dipasang pada tubuh pengguna, biasanya sebagai aksesori pribadi.
@@ -47,8 +47,8 @@ const WearableTechnology = () => {
       <div className="wt-third">
         <h1>Contoh Penerapan AI Dalam Smart City</h1>
         <div className="wt-image-container">
-          <img src="/image/blog1-pict.webp" alt="" />
-          <img src="/image/blog1-pict.webp" alt="" />
+          <img src="/image/technology/SP.svg" alt="" />
+          <img src="/image/technology/SW.svg" alt="" />
         </div>
         <p>
           Penggunaan Smart Watch dan juga Smart Phone adalah beberapa contoh

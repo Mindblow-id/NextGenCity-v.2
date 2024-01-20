@@ -31,16 +31,16 @@ const Navbar = () => {
           <Link onClick={onLinkClick} to="/">Home</Link>
         </li>
         <li>
-          <a onClick={onLinkClick} href="#about"> About</a>
+          <a onClick={onLinkClick} href="/#about"> About</a>
         </li>
         <li>
-          <a onClick={onLinkClick} href="#technology"> Technology</a>
+          <a onClick={onLinkClick} href="/#technology"> Technology</a>
         </li>
         <li>
-          <a onClick={onLinkClick} href="#effect"> Effect</a>
+          <a onClick={onLinkClick} href="/#effect"> Effect</a>
         </li>
         <li>
-          <a onClick={onLinkClick} href="#example"> Cities</a>
+          <a onClick={onLinkClick} href="/#example"> Cities</a>
         </li>
         <li>
           <Link onClick={onLinkClick} to="/blog">Blog</Link>

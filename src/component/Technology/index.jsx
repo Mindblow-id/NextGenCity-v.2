@@ -9,6 +9,7 @@ const Technology = () => {
   const onLinkClick = () => {
     setOpen(!open);
   };
+
   return (
     <section id="technology" className="technology">
       <h1 className="title">Technology</h1>
