@@ -1,5 +1,11 @@
 # NextGenCity-v.2
 
+## Created by :
+1. Nyoman Bayu Surapati
+2. Muhammad Rasyid Ridho
+3. Deva Nanda Alfarizi
+4. Herindio Pramudya Susanto
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
